@@ -2,9 +2,9 @@ public class Uomo extends Razza{
 
     protected String fazione;
 
-    public Uomo(int esperienzaDiCombattimento, String fazione){
+    public Uomo(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
-        this.fazione = fazione;
+        this.fazione = "bene";
     }
 
     public int calcolaForzadiCombattimento(){

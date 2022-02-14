@@ -2,9 +2,9 @@ public class Elfo extends Razza {
 
     protected String fazione;
 
-    public Elfo(int esperienzaDiCombattimento, String fazione){
+    public Elfo(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
-        this.fazione = fazione;
+        this.fazione = "bene";
     }
 
     @Override

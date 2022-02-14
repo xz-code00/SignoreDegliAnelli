@@ -2,10 +2,11 @@ public class Orco extends Razza {
 
     protected String fazione;
 
-    public Orco(int esperienzaDiCombattimento, String fazione){
+    public Orco(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
-        this.fazione = fazione;
+        this.fazione = "male";
     }
+
 
     @Override
     public int calcolaForzadiCombattimento() {
