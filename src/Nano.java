@@ -1,9 +1,11 @@
 public class Nano extends Razza {
 
-    public Nano(int esperienzaDiCombattimento) {
-        super(esperienzaDiCombattimento);
-    }
+    protected String fazione;
 
+    public Nano(int esperienzaDiCombattimento, String fazione){
+        super(esperienzaDiCombattimento);
+        this.fazione = fazione;
+    }
     @Override
     public int calcolaForzadiCombattimento() {
         return 20 + (4 * esperienzaDiCombattimento);

@@ -1,7 +1,10 @@
 public class Hobbit extends Razza{
 
-    public Hobbit(int esperienzaDiCombattimento) {
+    protected String fazione;
+
+    public Hobbit(int esperienzaDiCombattimento, String fazione){
         super(esperienzaDiCombattimento);
+        this.fazione = fazione;
     }
 
     @Override

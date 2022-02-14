@@ -1,8 +1,12 @@
 public class Urukhai extends Razza {
 
-    public Urukhai(int esperienzaDiCombattimento) {
+    protected String fazione;
+
+    public Urukhai(int esperienzaDiCombattimento, String fazione){
         super(esperienzaDiCombattimento);
+        this.fazione = fazione;
     }
+
 
     @Override
     public int calcolaForzadiCombattimento() {

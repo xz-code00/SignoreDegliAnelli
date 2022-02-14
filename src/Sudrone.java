@@ -1,8 +1,12 @@
 public class Sudrone extends Razza {
 
-    public Sudrone(int esperienzaDiCombattimento) {
+    protected String fazione;
+
+    public Sudrone(int esperienzaDiCombattimento, String fazione){
         super(esperienzaDiCombattimento);
+        this.fazione = fazione;
     }
+
 
     @Override
     public int calcolaForzadiCombattimento() {
