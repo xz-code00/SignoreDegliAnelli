@@ -21,4 +21,8 @@ public class Sudrone extends Razza {
     public String getFazione(){
         return super.getFazione();
     }
+
+    public int getForzaDiCombattimento(){
+        return forzaDiCombattimento;
+    }
 }

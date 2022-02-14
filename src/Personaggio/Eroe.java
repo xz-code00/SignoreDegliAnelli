@@ -18,4 +18,8 @@ public class Eroe {
     public String getFazione(){
         return fazione;
     }
+
+    public int getForzaDiCombattimento(){
+        return forzaDiCombattimento;
+    }
 }

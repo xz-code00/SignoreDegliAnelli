@@ -16,4 +16,8 @@ abstract public class Razza {
     public String getFazione(){
         return fazione;
     }
+
+    public int getForzaDiCombattimento(){
+        return forzaDiCombattimento;
+    }
 }

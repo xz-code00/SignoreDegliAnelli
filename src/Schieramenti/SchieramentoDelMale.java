@@ -18,6 +18,16 @@ public class SchieramentoDelMale {
         head = head.getLink();
     }
 
+    public int calcolaForzaTot(){
+        int forzaTot = 0;
+        for (Nodo p = head; p != null; p = p.getLink()){
+            if (p.getInfo() instanceof Razza)
+                 forzaTot += (((Razza)p.getInfo()).getForzaDiCombattimento());
+            if (p.getInfo() instanceof Eroe)
+                forzaTot += (((Eroe)p.getInfo()).getForzaDiCombattimento());
+        }
 
+        return forzaTot;
+    }
 
 }
