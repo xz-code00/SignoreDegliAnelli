@@ -1,3 +1,5 @@
+package Personaggio.Razza;
+
 abstract public class Razza {
     protected int esperienzaDiCombattimento;
     protected int forzaDiCombattimento;

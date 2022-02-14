@@ -1,3 +1,7 @@
+package Personaggio.Razza.Male;
+
+import Personaggio.Razza.Razza;
+
 public class Sudrone extends Razza {
 
     protected String fazione;

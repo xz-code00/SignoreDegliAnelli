@@ -1,4 +1,9 @@
-public class Uomo extends Razza{
+package Personaggio.Razza.Bene;
+
+import Personaggio.Razza.Razza;
+
+
+public class Uomo extends Razza {
 
     protected String fazione;
 

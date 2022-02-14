@@ -1,3 +1,7 @@
+package Personaggio.Razza.Bene;
+
+import Personaggio.Razza.Razza;
+
 public class Elfo extends Razza {
 
     protected String fazione;

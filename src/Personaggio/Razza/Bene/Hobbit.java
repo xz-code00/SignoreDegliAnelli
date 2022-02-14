@@ -1,4 +1,8 @@
-public class Hobbit extends Razza{
+package Personaggio.Razza.Bene;
+
+import Personaggio.Razza.Razza;
+
+public class Hobbit extends Razza {
 
     protected String fazione;
 
