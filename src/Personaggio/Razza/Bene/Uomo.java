@@ -16,7 +16,7 @@ public class Uomo extends Razza {
     }
 
     public String getFazione(){
-        return super.getFazione();
+        return fazione;
     }
 
     public int getForzaDiCombattimento(){

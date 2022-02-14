@@ -8,7 +8,7 @@ public class SchieramentoDelBene {
     private Nodo head;
 
     public void aggiungiInTesta(Object info){
-        if ((((Razza)info).getFazione().equals("bene")) || ((info instanceof Eroe) && (((Eroe)info).getFazione().equals("bene"))))
+        if (((info instanceof Razza) &&(((Razza)info).getFazione().equals("bene")) || ((info instanceof Eroe) && (((Eroe)info).getFazione().equals("bene")))))
             head = new Nodo(info, head);
         else
             System.out.println("Questo personaggio non può far parte della categoria bene");
@@ -16,6 +16,18 @@ public class SchieramentoDelBene {
 
     public void rimuoviInTesta(){
         head = head.getLink();
+    }
+
+    public int calcolaForzaTot(){
+        int forzaTot = 0;
+        for (Nodo p = head; p != null; p = p.getLink()){
+            if (p.getInfo() instanceof Razza)
+                forzaTot += (((Razza)p.getInfo()).getForzaDiCombattimento());
+            if (p.getInfo() instanceof Eroe)
+                forzaTot += (((Eroe)p.getInfo()).getForzaDiCombattimento());
+        }
+
+        return forzaTot;
     }
 
 }
