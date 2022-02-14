@@ -15,4 +15,5 @@ public class Uomo extends Razza {
     public int calcolaForzadiCombattimento(){
         return 30 + 6*(esperienzaDiCombattimento);
     }
+
 }
