@@ -14,4 +14,8 @@ public class Eroe {
         forzaDiCombattimento = (50 * livelloDiEnergiaVitale) + (50 * esperienzaDiCombattimento);
         this.fazione = fazione;
     }
+
+    public String getFazione(){
+        return fazione;
+    }
 }

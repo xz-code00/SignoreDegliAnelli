@@ -5,7 +5,6 @@ import Personaggio.Razza.Razza;
 
 public class Uomo extends Razza {
 
-    protected String fazione;
 
     public Uomo(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
@@ -16,4 +15,7 @@ public class Uomo extends Razza {
         return 30 + 6*(esperienzaDiCombattimento);
     }
 
+    public String getFazione(){
+        return super.getFazione();
+    }
 }

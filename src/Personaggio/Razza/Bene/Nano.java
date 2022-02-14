@@ -16,4 +16,8 @@ public class Nano extends Razza {
     public int calcolaForzadiCombattimento() {
         return 20 + (4 * esperienzaDiCombattimento);
     }
+
+    public String getFazione(){
+        return super.getFazione();
+    }
 }

@@ -17,4 +17,8 @@ public class Sudrone extends Razza {
     public int calcolaForzadiCombattimento() {
         return 40 + (5 * esperienzaDiCombattimento);
     }
+
+    public String getFazione(){
+        return super.getFazione();
+    }
 }

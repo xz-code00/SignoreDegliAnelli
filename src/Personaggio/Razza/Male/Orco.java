@@ -20,6 +20,9 @@ public class Orco extends Razza {
             return 70 + (3 * esperienzaDiCombattimento);
     }
 
-
+    public String getFazione(){
+        return super.getFazione();
+    }
 }
+
 

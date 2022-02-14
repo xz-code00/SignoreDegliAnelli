@@ -17,4 +17,8 @@ public class Urukhai extends Razza {
     public int calcolaForzadiCombattimento() {
         return 50 + (5 * esperienzaDiCombattimento);
     }
+
+    public String getFazione(){
+        return super.getFazione();
+    }
 }

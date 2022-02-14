@@ -19,6 +19,9 @@ public class Elfo extends Razza {
             return 80 + (2 * esperienzaDiCombattimento);
     }
 
-
+    public String getFazione(){
+        return super.getFazione();
+    }
 }
+
 

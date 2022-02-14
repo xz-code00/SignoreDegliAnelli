@@ -15,4 +15,9 @@ public class Hobbit extends Razza {
     public int calcolaForzadiCombattimento() {
         return 10 + (3 * esperienzaDiCombattimento);
     }
+
+    public String getFazione(){
+        return super.getFazione();
+    }
 }
+
