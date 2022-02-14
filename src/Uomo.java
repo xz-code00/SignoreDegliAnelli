@@ -4,5 +4,7 @@ public class Uomo extends Razza{
         super(esperienzaDiCombattimento);
     }
 
-    public void calcolaForzadiCombattimento(){};
+    public int calcolaForzadiCombattimento(){
+        return 30 + 6*(esperienzaDiCombattimento);
+    }
 }

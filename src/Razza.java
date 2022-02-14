@@ -4,8 +4,8 @@ abstract public class Razza {
 
     public Razza(int esperienzaDiCombattimento){
         this.esperienzaDiCombattimento = esperienzaDiCombattimento;
-        forzaDiCombattimento = 0;
+        forzaDiCombattimento = calcolaForzadiCombattimento();
     }
 
-    abstract public void calcolaForzadiCombattimento();
+    abstract public int calcolaForzadiCombattimento();
 }
