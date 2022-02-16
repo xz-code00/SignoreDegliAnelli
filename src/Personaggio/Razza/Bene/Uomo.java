@@ -15,9 +15,12 @@ public class Uomo extends Razza {
         return 30 + 6*(esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
+
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;

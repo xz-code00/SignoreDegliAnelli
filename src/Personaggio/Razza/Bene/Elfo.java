@@ -4,7 +4,6 @@ import Personaggio.Razza.Razza;
 
 public class Elfo extends Razza {
 
-    protected String fazione;
 
     public Elfo(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
@@ -19,9 +18,12 @@ public class Elfo extends Razza {
             return 80 + (2 * esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
+
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;

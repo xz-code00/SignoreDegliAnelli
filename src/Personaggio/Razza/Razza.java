@@ -13,7 +13,9 @@ abstract public class Razza {
 
     abstract public int calcolaForzadiCombattimento();
 
-     abstract public String getFazione();
+    public String getFazione() {
+        return fazione;
+     }
 
     abstract public int getForzaDiCombattimento();
 }

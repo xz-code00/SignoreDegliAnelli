@@ -4,8 +4,6 @@ import Personaggio.Razza.Razza;
 
 public class Nano extends Razza {
 
-    protected String fazione;
-
     public Nano(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
         this.fazione = "bene";
@@ -17,9 +15,11 @@ public class Nano extends Razza {
         return 20 + (4 * esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;

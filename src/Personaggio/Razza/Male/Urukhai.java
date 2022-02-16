@@ -4,7 +4,6 @@ import Personaggio.Razza.Razza;
 
 public class Urukhai extends Razza {
 
-    protected String fazione;
 
     public Urukhai(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
@@ -18,9 +17,11 @@ public class Urukhai extends Razza {
         return 50 + (5 * esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;

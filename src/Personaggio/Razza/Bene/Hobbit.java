@@ -4,8 +4,6 @@ import Personaggio.Razza.Razza;
 
 public class Hobbit extends Razza {
 
-    protected String fazione;
-
     public Hobbit(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
         this.fazione = "bene";
@@ -16,9 +14,12 @@ public class Hobbit extends Razza {
         return 10 + (3 * esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
+
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;

@@ -4,7 +4,6 @@ import Personaggio.Razza.Razza;
 
 public class Sudrone extends Razza {
 
-    protected String fazione;
 
     public Sudrone(int esperienzaDiCombattimento){
         super(esperienzaDiCombattimento);
@@ -18,9 +17,12 @@ public class Sudrone extends Razza {
         return 40 + (5 * esperienzaDiCombattimento);
     }
 
-    public String getFazione(){
+   /* public String getFazione(){
         return fazione;
     }
+
+    */
+
 
     public int getForzaDiCombattimento(){
         return forzaDiCombattimento;
